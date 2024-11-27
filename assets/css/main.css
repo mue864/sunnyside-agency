@@ -612,6 +612,14 @@ video {
   top: 60%;
 }
 
+.top-\[50\%\] {
+  top: 50%;
+}
+
+.top-\[75\%\] {
+  top: 75%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -735,6 +743,11 @@ video {
   background-color: hsl(51 100% 49% / var(--tw-bg-opacity, 1));
 }
 
+.bg-darkSaturatedCyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(167 40% 24% / var(--tw-bg-opacity, 1));
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -806,6 +819,14 @@ video {
 
 .pt-7 {
   padding-top: 1.75rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .text-center {
@@ -1115,5 +1136,13 @@ html {
 
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .md\:pt-16 {
+    padding-top: 4rem;
   }
 }
