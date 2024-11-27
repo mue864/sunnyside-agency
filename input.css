@@ -62,17 +62,39 @@ body, html {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
-  .background {
-      /* The image used */
-  background-image: url("./images/desktop/image-header.jpg");
 
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
+@media (max-width:768px) {
+
+    body, html {
+        height: 100%;
+      }
+      
+    .background {
+        /* The image used */
+    background-image: url("./images/desktop/image-header.jpg");
+  
+    /* Full height */
+    height: 70vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+
+ @media (min-width: 769px) {
+    .background {
+        /* The image used */
+    background-image: url("./images/desktop/image-header.jpg");
+  
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+ }
 
 .custom-link-egg {
     position: relative;
